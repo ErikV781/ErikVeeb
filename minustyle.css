@@ -4,3 +4,22 @@ img{
     width: 10%;
     padding: 2%;
 }
+h1{
+    font-family: Georgia, times, Serif;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    color:darkgreen;
+    text-align: center;
+
+}
+body{
+    font-family:georgia,times, serif;
+    background-color: lavender;
+}
+ul{
+    list-style:square;
+    margin-left: 5%;
+    border: 1pt dotted grey;
+    width: 20%
+
+}
