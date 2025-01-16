@@ -1,25 +1,120 @@
-img{
-    border: 1px solid grey;
+
+body {
+    font-family: Georgia, Times, serif;
+    background-color: lavender;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-family: 'Georgia', Times, Serif;
+    letter-spacing: 2px;
+    font-variant: small-caps;
+    color: darkgreen;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+    margin-top: 30px;
+    transition: transform 0.3s ease;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+
+
+img {
+    border: 3px solid grey;
     border-radius: 60px;
     width: 10%;
     padding: 2%;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
 }
-h1{
-    font-family: Georgia, times, Serif;
-    letter-spacing: 2px;
-    font-variant: small-caps;
-    color:darkgreen;
-    text-align: center;
 
+img:hover {
+    transform: rotate(10deg);
 }
-body{
-    font-family:georgia,times, serif;
-    background-color: lavender;
-}
-ul{
-    list-style:square;
+
+
+ul {
+    list-style: square;
     margin-left: 5%;
-    border: 1pt dotted grey;
-    width: 20%
+    border: 1px dotted grey;
+    padding: 10px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
 
+ul:hover {
+    background-color: #f0f0f0;
+}
+
+
+ul li {
+    padding: 10px;
+    font-size: 1.1em;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+ul li:hover {
+    color: darkgreen;
+}
+
+
+div#issue1 {
+    background-color: #e3f9e5;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+div#issue1:hover {
+    background-color: #d0f0d0;
+}
+
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #004080;
+}
+
+
+h3 {
+    font-size: 1.5em;
+    color: darkblue;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+p:hover {
+    background-color: #f5f5f5;
 }
